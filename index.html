@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">E-shop</div>
+        <button class="btn-cart" type="button">Корзина</button>
+    </header>
+    <main>
+
+        <section class="products">
+            <div class="product">
+                <h2>Big Mac</h2>
+                <img src="./img/2398.jpg" alt="">
+                <span>Калории: 40</span>
+                <span>Цена: 100</span>
+
+                <div id="counter-1">
+                    <button class="buy-btn" data-decrement>-</button>
+                    <span class="buy-btn" data-value>0</span>    
+                    <button class="buy-btn" data-increment>+</button>
+                </div>
+
+                <div class="ingridients">
+                    <label class="buy-btn">
+                        сыр
+                        <input type="checkbox">
+                    </label>
+                    <label class="buy-btn">
+                        салат
+                        <input type="checkbox">
+                    </label>
+                    <label class="buy-btn">
+                        картофел
+                        <input type="checkbox">
+                    </label>
+                    <label class="buy-btn">
+                        приправ
+                        <input type="checkbox">
+                    </label>
+                    <label class="buy-btn">
+                        майонез
+                        <input type="checkbox">
+                    </label>
+                </div>
+            </div>
+
+            <div class="product">
+                <h2>Small Mac</h2>
+                <img src="./img/2398.jpg" alt="">
+                <span>Калории: 20</span>
+                <span>Цена: 50</span>
+
+                <div id="counter-2">
+                    <button class="buy-btn" data-decrement>-</button>
+                    <span class="buy-btn" data-value>0</span>    
+                    <button class="buy-btn" data-increment>+</button>
+                </div>
+
+                <div class="ingridients">
+                    <label class="buy-btn">
+                        сыр
+                        <input type="checkbox">
+                    </label>
+                    <label class="buy-btn">
+                        салат
+                        <input type="checkbox">
+                    </label>
+                    <label class="buy-btn">
+                        картофел
+                        <input type="checkbox">
+                    </label>
+                    <label class="buy-btn">
+                        приправ
+                        <input type="checkbox">
+                    </label>
+                    <label class="buy-btn">
+                        майонез
+                        <input type="checkbox">
+                    </label>
+                </div>
+            </div>
+
+           <div id="counter-3" class="total">
+                <span class="buy-btn" data-kal>0</span>    
+                <span class="buy-btn" data-total>0</span>    
+            
+           </div>
+
+           <button class="buy-btn">Купить</button>
+        </section>
+        
+        
+
+    </main>
+		<!--beforestart-->
+		<p>
+		<!--afterstart-->
+			<span></span>
+			<!--beforeend-->
+		</p>
+		<!--afterend-->
+   
+    <script src="./js/main2.js"></script>
+</body>
+</html>
